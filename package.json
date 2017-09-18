@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts":{
+    "start": "node dist",
     "build": "babel src --presets node6 --out-dir dist"
   },
   "dependencies": {
