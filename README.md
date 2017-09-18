@@ -4,8 +4,10 @@ Simple express app using innograph
 
 ```
 yarn install
+cd src
 bit init
-bit import -p src innograph.profile/main-profile/index 
+bit import innograph.profile/main-profile/index 
+cd ..
 npm run build
 npm start
 ```
